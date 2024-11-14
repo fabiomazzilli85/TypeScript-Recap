@@ -203,7 +203,7 @@ function calcolaBMI(peso: number, altezza: number): number {
 
 let peso: number = 70;
 let altezza: number = 1.75;
-let bmi = calcolaBMI(peso, altezza);
+let bmi: number = calcolaBMI(peso, altezza);
 
 if (bmi > 25) {
     console.log(`Sei in sovrappeso`);
